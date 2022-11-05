@@ -11,3 +11,11 @@ let btnBackground = document.getElementById('set-background');
 
 btnBackground.addEventListener('click', setBackground);
 
+
+    let ele = document.querySelector('p');
+    ele.textContent = "testujemy";
+    
+
+document.querySelector('body').appendChild(ele);
+
+console.log('gaha');
